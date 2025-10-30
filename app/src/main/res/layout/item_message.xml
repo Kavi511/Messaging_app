@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <!-- Sent Message -->
+    <LinearLayout
+        android:id="@+id/sent_message_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/sent_message_bubble"
+        android:padding="12dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Sent Message Image -->
+        <ImageView
+            android:id="@+id/sent_message_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:background="@drawable/image_background" />
+
+        <TextView
+            android:id="@+id/sent_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a sent message"
+            android:textColor="@color/foreground_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/sent_timestamp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="end"
+            android:text="2:30 PM"
+            android:textColor="@color/muted_foreground_dark"
+            android:textSize="10sp" />
+
+        <!-- Sent Message Checkbox -->
+        <ImageView
+            android:id="@+id/sent_checkbox"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_check_box_outline"
+            android:visibility="gone"
+            android:tint="@color/primary" />
+
+    </LinearLayout>
+
+    <!-- Received Message -->
+    <LinearLayout
+        android:id="@+id/received_message_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/received_message_bubble"
+        android:padding="12dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Received Message Image -->
+        <ImageView
+            android:id="@+id/received_message_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:background="@drawable/image_background" />
+
+        <TextView
+            android:id="@+id/received_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a received message"
+            android:textColor="@color/foreground_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/received_timestamp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="end"
+            android:text="2:30 PM"
+            android:textColor="@color/muted_foreground_dark"
+            android:textSize="10sp" />
+
+        <!-- Received Message Checkbox -->
+        <ImageView
+            android:id="@+id/received_checkbox"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_check_box_outline"
+            android:visibility="gone"
+            android:tint="@color/primary" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

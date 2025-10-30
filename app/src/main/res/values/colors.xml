@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Light Theme Colors -->
+    <!-- Background -->
+    <color name="background_dark">#FFF8F9FA</color> <!-- Light gray background -->
+    <color name="card_dark">#FFFFFFFF</color> <!-- White cards -->
+    
+    <!-- Foreground -->
+    <color name="foreground_dark">#FF212529</color> <!-- Dark text on light background -->
+    <color name="muted_foreground_dark">#FF6C757D</color> <!-- Muted gray text -->
+    
+    <!-- Primary Colors -->
+    <color name="primary_dark">#FF0D6EFD</color> <!-- Blue primary -->
+    <color name="primary_foreground_dark">#FFFFFFFF</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary_dark">#FF6F42C1</color> <!-- Purple secondary -->
+    <color name="secondary_foreground_dark">#FFFFFFFF</color>
+    
+    <!-- Muted Colors -->
+    <color name="muted_dark">#FFE9ECEF</color> <!-- Light gray -->
+    
+    <!-- Border -->
+    <color name="border_dark">#FFDEE2E6</color> <!-- Light border -->
+    
+    <!-- Input -->
+    <color name="input_dark">#FFFFFFFF</color> <!-- White input background -->
+    
+    <!-- WhatsApp-style Message Colors -->
+    <color name="whatsapp_sent_dark">#FFD1ECF1</color> <!-- Light blue for sent messages -->
+    <color name="whatsapp_received_dark">#FFFFFFFF</color> <!-- White for received messages -->
+    <color name="whatsapp_chat_bg_dark">#FFF8F9FA</color> <!-- Light chat background -->
+    <color name="whatsapp_divider_dark">#FFDEE2E6</color> <!-- Light divider -->
+    
+    <!-- Accent Colors -->
+    <color name="accent_dark">#FF0D6EFD</color>
+    <color name="accent_foreground_dark">#FFFFFFFF</color>
+    
+    <!-- Destructive Colors -->
+    <color name="destructive_dark">#FFDC3545</color>
+    <color name="destructive_foreground_dark">#FFFFFFFF</color>
+    <color name="red">#FFDC3545</color>
+    <color name="primary">#2196F3</color>
+    
+    <!-- Ring/Focus -->
+    <color name="ring_dark">#FF0D6EFD</color>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Status Circle -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/status_circle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/status_story_background"
+            android:gravity="center"
+            android:text="?"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Add Status Icon (only for My Status) -->
+        <TextView
+            android:id="@+id/add_status_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/add_status_background"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <!-- Status Name -->
+    <TextView
+        android:id="@+id/status_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status Name"
+        android:textColor="@color/foreground_dark"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:maxWidth="80dp" />
+
+</LinearLayout>
