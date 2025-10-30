@@ -126,13 +126,18 @@ Run from Android Studio test gutter icons or via Gradle tasks above.
 
 ## 🖼️ Screenshots
 
-Add screenshots to a `docs/screenshots/` folder and reference them here:
 ---
 
 <img width="438" height="940" alt="image" src="https://github.com/user-attachments/assets/8010d87d-25a5-43c9-956e-9ed238e5a735" />
+
+<img width="522" height="1118" alt="image" src="https://github.com/user-attachments/assets/99a0c15c-2f5b-49b6-a55c-326b5853a0b3" />
+
 <img width="475" height="1027" alt="image" src="https://github.com/user-attachments/assets/022a2503-e3ab-4b41-946b-80cf690d24a7" />
+
 <img width="488" height="1041" alt="image" src="https://github.com/user-attachments/assets/2a122958-f02f-4340-9c28-2f1201d946ce" />
+
 <img width="484" height="1041" alt="image" src="https://github.com/user-attachments/assets/b1ee6aa0-a37a-4f65-aaef-2ea0fa1a98f6" />
+
 <img width="509" height="1082" alt="image" src="https://github.com/user-attachments/assets/f2aed884-fdfc-4fd6-8a16-f3b917b5ba6f" />
 
 ---
@@ -180,5 +185,6 @@ This project is currently unlicensed and intended for academic/portfolio use. If
 - "Why are some features placeholders?" → The UI is complete; connect your preferred backend for full functionality.
 
 Happy building! 🚀
+
 
 
